@@ -10,10 +10,10 @@
 
 ### Click on the screenshot to visit website 👇
 
-[![Screenshot of website](https://github.com/Vinicius-92/html-project-jewelryshop/blob/main/printscreen.jpg?raw=true)
+![Screenshot of website](https://github.com/Vinicius-92/html-project-jewelryshop/blob/main/printscreen.jpg?raw=true)
 
 
 ### To-do
 
-* Optmize image size for better speed
+* ~~Optmize image size for better speed~~ - Done
 * Create more pages to explain better how to purchase and warranty details
