@@ -153,35 +153,23 @@ nav ul button:hover {
     flex-direction: column;
     text-align: center;
     min-width: 35%;
-    max-width: 50%;
+    max-width: 80%;
     margin: auto;
 }
 
 .setor .varejo {
     max-width: 800px;
-    display: grid;
-    grid-gap: 50px;
-    padding-top: 50px;
-    grid-template-rows: 250px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    padding-top: 50px; 
     margin: 0 auto;
-}
-
-.setor img {
-    max-height: 70%;
-    max-width: 100%;
+    align-items: center;
     padding-left: 10%;
 }
 
-.varejo .elo7 {
-    display: flex;
-    position: relative;
+.setor img {
+    max-height: 100%;
+    max-width: 100%;
 }
-
-.varejo .mercado-livre {
-    display: flex;
-    position: relative;
-} 
 
 /* Product Catalog */
 
@@ -416,6 +404,10 @@ footer .last {
 @media (max-width: 576px){
     nav ul li {
         display: none;
+    }
+
+    header {
+        max-height: 300px;
     }
 
     header .content {
